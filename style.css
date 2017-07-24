@@ -7,7 +7,7 @@ body {
 }
 
 .entire-head {
-  background-color: #85CB33;
+  background-color: #FF1D15;
   display: inline-flex;
   height: 200px;
   width: 100%;
@@ -21,7 +21,7 @@ body {
 
 .lp-button {
   align-self: flex-end;
-  background-color: #85CB33;
+  background-color: inherit;
   border: none;
   display: inline-flex;
   height: 50px;
@@ -99,7 +99,7 @@ body {
 }
 
 .entire-bottom {
-  background-color: #000;
+  background-color: #0BC9CD;
 }
 
 h1 {
@@ -108,4 +108,89 @@ h1 {
   margin: 0 20px;
   padding-top: 20px;
   padding-bottom: 20px
+}
+
+.all-cards {
+  background-color: #0BC9CD;
+  /*border: 1px dotted blue;*/
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.cards {
+  display: flex;
+  flex-direction: column;
+  height: 400px;
+  width: 300px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.card1 {
+  border: 1px solid red;
+}
+
+.card-top {
+  border: 1px solid blue;
+  display: flex;
+  height: 35%;
+  justify-content: space-between;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.sport1 {
+  background-image: url(Images/biking.jpg);
+}
+
+.sport2 {
+  background-image: url(Images/blueboarding.jpg);
+}
+
+.sport3 {
+  background-image: url(Images/surfing.jpg);
+}
+
+.sport4 {
+  background-image: url(Images/rockClimbing.jpeg);
+}
+
+.sport5 {
+  background-image: url(Images/skier.jpg);
+}
+
+.sport6 {
+  background-image: url(Images/KAyaking.jpg);
+}
+
+.sport7 {
+  background-image: url(Images/skydiving.jpg);
+}
+
+.sport8 {
+  background-image: url(Images/hiking.jpg);
+}
+
+.card-bottom {
+  border: 1px solid yellow;
+}
+
+.card-icons {
+  height: 40px;
+  width: 40px;
+  border-radius: 100%;
+  /*background-color: white;*/
+  margin: 50px 20px;
+}
+
+.card-icons:hover {
+  background-color: red;
+}
+
+.card-title {
+  color: white;
+  font-size: 20px;
+  margin: 40px 20px;
+  text-align: center;
 }
