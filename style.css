@@ -7,7 +7,9 @@ body {
 }
 
 .entire-head {
-  background-color: #FF1D15;
+  background-image: url(Images/brushed-metallic-background_1048-120.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
   display: inline-flex;
   height: 200px;
   width: 100%;
@@ -41,9 +43,9 @@ body {
 .lp-center-icon-para,
 .lp-right-icon-para {
   display: inline;
-  /*color: #50514F;*/
   font-size: 20px;
   margin-left: 10px;
+  text-shadow: 1px 1px #0068FF;
 }
 
 .lp-left-icon-para:hover,
@@ -65,19 +67,28 @@ body {
   align-self: flex-end;
   background-color: inherit;
   border: none;
-  display: flex;
+  display: inline-flex;
   flex-direction: row;
   justify-content: space-between;
-  width: 35%;
   margin: 30px 30px 50px 0;
 }
 
+.rp-top-icon {
+  width: 30%;
+}
+
+.rp-bottom-icon {
+  width: 40%;
+}
+
 .rp-top-icon-image {
-  width: 40px;
+  width: 50px;
 }
 
 .rp-top-icon-para {
-  font-size: 16px;
+  font-size: 20px;
+  margin-top: 10px;
+  text-shadow: 1px 1px #0068FF;
 }
 
 .rp-top-icon-para:hover {
@@ -85,8 +96,10 @@ body {
 }
 
 .rp-bottom-icon-para {
-  font-size: 40px;
+  display: inline-flex;
+  font-size: 5.0em;
   margin-top: 0;
+  text-shadow: 2px 2px #0068FF;
 }
 
 .rp-bottom-icon-para:hover {
@@ -94,31 +107,36 @@ body {
 }
 
 .rp-bottom-icon-image {
-  height: 50px;
-  width: 50px;
+  display: inline-flex;
+  height: 60px;
+  width: 60px;
 }
 
 .entire-bottom {
-  background-color: #0BC9CD;
+  background-image: url(Images/wood-texture-background_1404-93.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 h1 {
-  color: white;
+  color: black;
   font-size: 50px;
   margin: 0 20px;
   padding-top: 20px;
-  padding-bottom: 20px
+  padding-bottom: 20px;
+  text-shadow: 3px 3px #0068FF;
 }
 
 .all-cards {
-  background-color: #0BC9CD;
-  /*border: 1px dotted blue;*/
+  background-image: url(Images/wood-texture-background_1404-93.jpg);
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
 }
 
 .cards {
+  border: 3px solid black;
+  box-shadow: 20px 20px 0 0 black;
   display: flex;
   flex-direction: column;
   height: 400px;
@@ -127,12 +145,7 @@ h1 {
   margin-bottom: 40px;
 }
 
-.card1 {
-  border: 1px solid red;
-}
-
 .card-top {
-  border: 1px solid blue;
   display: flex;
   height: 35%;
   justify-content: space-between;
@@ -173,14 +186,13 @@ h1 {
 }
 
 .card-bottom {
-  border: 1px solid yellow;
+  background-color: #DBD9FF;
 }
 
 .card-icons {
   height: 40px;
   width: 40px;
   border-radius: 100%;
-  /*background-color: white;*/
   margin: 50px 20px;
 }
 
@@ -193,4 +205,33 @@ h1 {
   font-size: 20px;
   margin: 40px 20px;
   text-align: center;
+}
+
+
+@media (max-width: 1050px) {
+  .rp-button {
+    width: 40%;
+  }
+  .rp-bottom-icon-para {
+    font-size: 4.5em;
+  }
+  /*.rp-bottom-icon-image {
+
+  }*/
+}
+
+@media (max-width: 975px) {
+  .rp-button {
+    width: 50%;
+  }
+}
+
+@media (max-width: 775px) {
+  .rp-button {
+    width: 60%;
+  }
+}
+
+@media (max-width: 650px) {
+  
 }
