@@ -1,4 +1,4 @@
-# SYS Static Comp Challenge 2
+# Static Comp Challenge: 2
 
 ## For this static comp challenge I chose to complete build my project around Extreme Sports. All of these sports I've done one time or another in my life with the exception being skydiving.
 
