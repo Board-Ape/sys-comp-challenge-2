@@ -44,7 +44,7 @@ body {
 .lp-center-icon-para,
 .lp-right-icon-para {
   display: inline;
-  font-size: 30px;
+  font-size: 2.5em;
   margin-left: 10px;
   text-shadow: 1px 1px #0068FF;
 }
@@ -245,13 +245,18 @@ h5 {
   }
 }
 
-/*@media (max-width: 775px) {
-  .rp-button {
-    width: 60%;
-  }
-}*/
-
 @media (max-width: 775px) {
+
+  .lp-left-icon-image,
+  .lp-center-icon-image,
+  .lp-right-icon-image {
+    width: 35px;
+  }
+  .lp-left-icon-para,
+  .lp-center-icon-para,
+  .lp-right-icon-para {
+    font-size: 2.0em;
+  }
   .entire-head {
     display: flex;
     flex-direction: column;
@@ -271,7 +276,7 @@ h5 {
     display: inline-flex;
     height: 50px;
     margin: 0 20px 20px 20px;
-    width: 30 %;
+    width: 30%;
   }
   .rp-head {
     display: flex;
@@ -290,3 +295,25 @@ h5 {
   }
 
 }
+
+@media (max-width: 450px) {
+  body {
+    min-width: 300px;
+  }
+  .lp-button {
+    margin-left: 5px;
+    margin-right: 0;
+  }
+  .lp-left-icon-image,
+  .lp-center-icon-image,
+  .lp-right-icon-image {
+    width: 25px;
+  }
+  .lp-left-icon-para,
+  .lp-center-icon-para,
+  .lp-right-icon-para {
+    font-size: 1.5em;
+  }
+  .rp-button  {
+    width: 90%
+  }
